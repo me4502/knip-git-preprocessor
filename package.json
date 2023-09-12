@@ -1,0 +1,21 @@
+{
+  "name": "knip-git-preprocessor",
+  "version": "1.0.0",
+  "description": "Git preprocessor for Knip",
+  "main": "dist/index.js",
+  "repository": "git@github.com:me4502/knip-git-preprocessor.git",
+  "author": "Maddy Miller",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "knip": "^2.23.0",
+    "typescript": "^5.2.2"
+  }
+}
